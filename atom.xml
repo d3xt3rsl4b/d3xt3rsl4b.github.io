@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>D3xt3r&#39;s Laboratory</title>
+  
+  <subtitle>Reverse Engineer&#39;s diary</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.taintedbits.com/"/>
+  <updated>2020-08-13T10:45:14.391Z</updated>
+  <id>https://www.taintedbits.com/</id>
+  
+  <author>
+    <name>D3xt3r</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.tw] - HackNote</title>
+    <link href="https://www.taintedbits.com/2020/07/18/binary-exploitation-pwnable-tw-hacknote/"/>
+    <id>https://www.taintedbits.com/2020/07/18/binary-exploitation-pwnable-tw-hacknote/</id>
+    <published>2020-07-17T18:30:00.000Z</published>
+    <updated>2020-08-13T10:45:14.391Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;Challange Description&lt;/h1&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;hacknote&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;200&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;1101 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Libc&lt;/td&gt;&lt;td&gt;2.23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;A good Hacker should always take good notes!&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+      <category term="pwnable-tw" scheme="https://www.taintedbits.com/tags/pwnable-tw/"/>
+    
+      <category term="Heap Exploitation" scheme="https://www.taintedbits.com/tags/Heap-Exploitation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.tw] - Tcache Tear</title>
+    <link href="https://www.taintedbits.com/2020/07/18/binary-exploitation-pwnable-tw-tcache-tear/"/>
+    <id>https://www.taintedbits.com/2020/07/18/binary-exploitation-pwnable-tw-tcache-tear/</id>
+    <published>2020-07-17T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:58.372Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;Challange Description&lt;/h1&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Tcache Tear&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;200&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;433 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Libc&lt;/td&gt;&lt;td&gt;2.27&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Make tcache great again !&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+      <category term="pwnable-tw" scheme="https://www.taintedbits.com/tags/pwnable-tw/"/>
+    
+      <category term="Exploitation" scheme="https://www.taintedbits.com/tags/Exploitation/"/>
+    
+      <category term="Heap Exploitation" scheme="https://www.taintedbits.com/tags/Heap-Exploitation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.tw] - CAOV</title>
+    <link href="https://www.taintedbits.com/2020/07/12/binary-exploitation-pwnable-tw-caov/"/>
+    <id>https://www.taintedbits.com/2020/07/12/binary-exploitation-pwnable-tw-caov/</id>
+    <published>2020-07-11T18:30:00.000Z</published>
+    <updated>2020-07-28T12:46:30.436Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Challange-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challange-Description&quot;&gt;#&lt;/a&gt;Challange Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;CAOV&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;350&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;134 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Libc&lt;/td&gt;&lt;td&gt;2.23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;What does “CAOV” stands for?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+      <category term="pwnable-tw" scheme="https://www.taintedbits.com/tags/pwnable-tw/"/>
+    
+      <category term="WarGames" scheme="https://www.taintedbits.com/tags/WarGames/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.tw] - Spirited Away</title>
+    <link href="https://www.taintedbits.com/2020/07/11/binary-exploitation-pwnable-tw-spirited-away/"/>
+    <id>https://www.taintedbits.com/2020/07/11/binary-exploitation-pwnable-tw-spirited-away/</id>
+    <published>2020-07-10T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Challange-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challange-Description&quot;&gt;#&lt;/a&gt;Challange Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Spirited Away&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Libc&lt;/td&gt;&lt;td&gt;2.23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;457 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Thanks for watching Spirited Away ! Please leave some comments to help us improve our next movie !&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+      <category term="pwnable-tw" scheme="https://www.taintedbits.com/tags/pwnable-tw/"/>
+    
+      <category term="Heap Exploitation" scheme="https://www.taintedbits.com/tags/Heap-Exploitation/"/>
+    
+      <category term="WarGames" scheme="https://www.taintedbits.com/tags/WarGames/"/>
+    
+      <category term="ROP" scheme="https://www.taintedbits.com/tags/ROP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.tw] - Realloc</title>
+    <link href="https://www.taintedbits.com/2020/07/05/binary-exploitation-pwnable-tw-realloc/"/>
+    <id>https://www.taintedbits.com/2020/07/05/binary-exploitation-pwnable-tw-realloc/</id>
+    <published>2020-07-04T18:30:00.000Z</published>
+    <updated>2020-08-12T10:12:13.157Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Challange-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challange-Description&quot;&gt;#&lt;/a&gt;Challange Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Realloc&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;200&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;115 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Libc&lt;/td&gt;&lt;td&gt;2.29 (with tcache enabled)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;I want to realloc my life :)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+      <category term="pwnable-tw" scheme="https://www.taintedbits.com/tags/pwnable-tw/"/>
+    
+      <category term="Heap Exploitation" scheme="https://www.taintedbits.com/tags/Heap-Exploitation/"/>
+    
+      <category term="WarGames" scheme="https://www.taintedbits.com/tags/WarGames/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.tw] - BabyStack</title>
+    <link href="https://www.taintedbits.com/2020/07/04/binary-exploitation-pwnable-tw-babystack/"/>
+    <id>https://www.taintedbits.com/2020/07/04/binary-exploitation-pwnable-tw-babystack/</id>
+    <published>2020-07-03T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Challange-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challange-Description&quot;&gt;#&lt;/a&gt;Challange Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;BabyStack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;455 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Can you find the password in the stack?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+      <category term="pwnable-tw" scheme="https://www.taintedbits.com/tags/pwnable-tw/"/>
+    
+      <category term="WarGames" scheme="https://www.taintedbits.com/tags/WarGames/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.tw] - Secret Garden</title>
+    <link href="https://www.taintedbits.com/2020/06/13/binary-exploitation-pwnable-tw-level-secretgarden/"/>
+    <id>https://www.taintedbits.com/2020/06/13/binary-exploitation-pwnable-tw-level-secretgarden/</id>
+    <published>2020-06-12T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Challange-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challange-Description&quot;&gt;#&lt;/a&gt;Challange Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Secret Garden&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;350&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;458 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Libc&lt;/td&gt;&lt;td&gt;2.23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Find the flag in the garden&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+      <category term="pwnable-tw" scheme="https://www.taintedbits.com/tags/pwnable-tw/"/>
+    
+      <category term="Heap Exploitation" scheme="https://www.taintedbits.com/tags/Heap-Exploitation/"/>
+    
+      <category term="WarGames" scheme="https://www.taintedbits.com/tags/WarGames/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.kr] - (Level 6) random</title>
+    <link href="https://www.taintedbits.com/2020/06/07/binary-exploitation-pwnable-kr-level-6/"/>
+    <id>https://www.taintedbits.com/2020/06/07/binary-exploitation-pwnable-kr-level-6/</id>
+    <published>2020-06-06T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;level6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;h2 id=&quot;Challange-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challange-Description&quot;&gt;#&lt;/a&gt;Challange Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;random&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;9870 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Daddy, teach me how to use random value in programming!&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="pwnable-kr" scheme="https://www.taintedbits.com/tags/pwnable-kr/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.kr] - (Level 5) passcode</title>
+    <link href="https://www.taintedbits.com/2020/06/06/binary-exploitation-pwnable-kr-level-5/"/>
+    <id>https://www.taintedbits.com/2020/06/06/binary-exploitation-pwnable-kr-level-5/</id>
+    <published>2020-06-05T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;level5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;h2 id=&quot;Challange-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challange-Description&quot;&gt;#&lt;/a&gt;Challange Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;random&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;7513 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Mommy told me to make a passcode based login system. My initial C code was compiled without any error! Well, there was some compiler warning, but who cares about that?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="pwnable-kr" scheme="https://www.taintedbits.com/tags/pwnable-kr/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.kr] - (Level 4) flag</title>
+    <link href="https://www.taintedbits.com/2020/05/17/binary-exploitation-pwnable-kr-level-4/"/>
+    <id>https://www.taintedbits.com/2020/05/17/binary-exploitation-pwnable-kr-level-4/</id>
+    <published>2020-05-16T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;level4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;h2 id=&quot;Challenge-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challenge-Description&quot;&gt;#&lt;/a&gt;Challenge Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;flag&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;10695 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Papa brought me a packed present! let’s open it. This is reversing task. all you need is binary&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="pwnable-kr" scheme="https://www.taintedbits.com/tags/pwnable-kr/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+      <category term="Exploitation" scheme="https://www.taintedbits.com/tags/Exploitation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.kr] - (Level 3) BOF</title>
+    <link href="https://www.taintedbits.com/2020/05/16/binary-exploitation-pwnable-kr-level-3/"/>
+    <id>https://www.taintedbits.com/2020/05/16/binary-exploitation-pwnable-kr-level-3/</id>
+    <published>2020-05-15T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;level3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;h2 id=&quot;Challenge-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challenge-Description&quot;&gt;#&lt;/a&gt;Challenge Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;BOF&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;12586 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Nana told me that buffer overflow is one of the most common software vulnerability. Is that true?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="pwnable-kr" scheme="https://www.taintedbits.com/tags/pwnable-kr/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.kr] - (Level 2) Collision</title>
+    <link href="https://www.taintedbits.com/2020/05/09/binary-exploitation-pwnable-kr-level-2/"/>
+    <id>https://www.taintedbits.com/2020/05/09/binary-exploitation-pwnable-kr-level-2/</id>
+    <published>2020-05-08T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;level2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;h2 id=&quot;Challenge-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challenge-Description&quot;&gt;#&lt;/a&gt;Challenge Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;BOF&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;12586 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Daddy told me about cool MD5 hash collision today. I wanna do something like that too!&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="pwnable-kr" scheme="https://www.taintedbits.com/tags/pwnable-kr/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Exploitation [pwnable.kr] - (Level 1) FD</title>
+    <link href="https://www.taintedbits.com/2020/05/07/binary-exploitation-pwnable-kr-level-1/"/>
+    <id>https://www.taintedbits.com/2020/05/07/binary-exploitation-pwnable-kr-level-1/</id>
+    <published>2020-05-06T18:30:00.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;level1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;h2 id=&quot;Challange-Description&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Challange-Description&quot;&gt;#&lt;/a&gt;Challange Description&lt;/h2&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;FD&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Points&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Solves&lt;/td&gt;&lt;td&gt;12586 times&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Category&lt;/td&gt;&lt;td&gt;Exploitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td&gt;Mommy! what is a file descriptor in Linux?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="pwnable-kr" scheme="https://www.taintedbits.com/tags/pwnable-kr/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Binary Exploitation Series (with pwnable.kr)</title>
+    <link href="https://www.taintedbits.com/2020/04/28/linux-binary-exploitation-series-with-pwnable-kr/"/>
+    <id>https://www.taintedbits.com/2020/04/28/linux-binary-exploitation-series-with-pwnable-kr/</id>
+    <published>2020-04-28T04:24:20.000Z</published>
+    <updated>2020-07-28T12:45:56.596Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;There’s no use talking about the problem unless you talk about the solution.&lt;/p&gt;&lt;footer&gt;&lt;strong&gt;Betty Williams&lt;/strong&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;p&gt;This is a kick-off post for the series of post on &lt;strong&gt;The War Game &lt;a href=&quot;https://pwnable.kr&quot;&gt;pwnable.kr&lt;/a&gt;&lt;/strong&gt;. It’s focused on Linux Exploitation.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF Writeups" scheme="https://www.taintedbits.com/categories/CTF-Writeups/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="pwnable-kr" scheme="https://www.taintedbits.com/tags/pwnable-kr/"/>
+    
+      <category term="CTF" scheme="https://www.taintedbits.com/tags/CTF/"/>
+    
+      <category term="pwnable" scheme="https://www.taintedbits.com/tags/pwnable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Testing Linux Heap exploits on different Glibc version (with source-level debugging setup)</title>
+    <link href="https://www.taintedbits.com/2019/09/15/testing-heap-exploit-on-different-glibc-verison/"/>
+    <id>https://www.taintedbits.com/2019/09/15/testing-heap-exploit-on-different-glibc-verison/</id>
+    <published>2019-09-15T09:46:23.000Z</published>
+    <updated>2020-01-27T11:56:49.887Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently I am learning about Linux Heap exploitation and I came across some really good Phrack papers and blogs which explained different type of attacks in varying conditions, I have included the link of these blogs and papers in the next section. I also came across an amazing GitHub project &lt;a href=&quot;https://github.com/shellphish/how2heap&quot;&gt;How2Heap&lt;/a&gt; by &lt;strong&gt;shellpish&lt;/strong&gt; team, this project has the example exploit code for various heap exploitation technique of different versions of Glibc out there in public, which help me to get a better understanding of how those attacks played out. That project also included a script to build Glibc with any version of your choice and test the exploit on that version.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Exploitation" scheme="https://www.taintedbits.com/categories/Exploitation/"/>
+    
+    
+      <category term="Linux" scheme="https://www.taintedbits.com/tags/Linux/"/>
+    
+      <category term="glibc" scheme="https://www.taintedbits.com/tags/glibc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Analyzing the Windows LNK file attack method</title>
+    <link href="https://www.taintedbits.com/2019/02/16/analyzing-the-windows-lnk-file-attack-method/"/>
+    <id>https://www.taintedbits.com/2019/02/16/analyzing-the-windows-lnk-file-attack-method/</id>
+    <published>2019-02-16T02:30:00.000Z</published>
+    <updated>2020-01-27T12:03:11.458Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently a friend of mine shared an interesting Malicious sample, it was a Microsoft shortcut file (LNK file) which after clicking(execution) lead to infection, although I was not aware of this type of attack vector before doing a basic research on google I was surprised that there is an increase in this type of attacks since 2017. In this post we will Analysis the LNK file malware and uncover how attacker uses multiple layers of obfuscation to evade AV and finally dropping malicious binary, we will also look into how to de-obfuscate each layer and understand what the code is doing.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Malware Analysis" scheme="https://www.taintedbits.com/categories/Malware-Analysis/"/>
+    
+    
+      <category term="Dropper" scheme="https://www.taintedbits.com/tags/Dropper/"/>
+    
+      <category term="Windows Malware" scheme="https://www.taintedbits.com/tags/Windows-Malware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unpacking Grey Energy malware (Service Application DLL)</title>
+    <link href="https://www.taintedbits.com/2018/12/17/unpacking-grey-energy-malware/"/>
+    <id>https://www.taintedbits.com/2018/12/17/unpacking-grey-energy-malware/</id>
+    <published>2018-12-16T18:30:00.000Z</published>
+    <updated>2020-01-27T12:03:20.707Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently I stumbled upon malware sample which was part of &lt;em&gt;Grey Energy&lt;/em&gt; malware campaign targeting Ukraine energy infrastructure. I ran the hash of the file on &lt;a href=&quot;https://www.virustotal.com/#/file/15a6f734ca79efc027000dd12f4d3870ccc9f604517b0e700c05b961659308d1/detection&quot;&gt;virutotal&lt;/a&gt; and many of the antiviruses tagged it Grey Energy and I tried to do a little more internet research but didn’t find and analysis on it. As there was no post on this sample so I decided to write one.&lt;br&gt;In the post you will learn the following:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;How to debug Windows Service Application DLL&lt;/li&gt;&lt;li&gt;Learn how to use a &lt;em&gt;EBFE&lt;/em&gt; debugging technique&lt;/li&gt;&lt;li&gt;Unpacking a DLL binary&lt;/li&gt;&lt;li&gt;How to dump an unpacked in-memory executable&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;File hash&lt;/strong&gt; : 15a6f734ca79efc027000dd12f4d3870ccc9f604517b0e700c05b961659308d1&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Malware Analysis" scheme="https://www.taintedbits.com/categories/Malware-Analysis/"/>
+    
+    
+      <category term="Windows Malware" scheme="https://www.taintedbits.com/tags/Windows-Malware/"/>
+    
+      <category term="Grey Energy" scheme="https://www.taintedbits.com/tags/Grey-Energy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gandcrab v5.0.3 detail analysis of javascript delivery payload</title>
+    <link href="https://www.taintedbits.com/2018/10/18/gandcrab-detail-analysis-of-js-delivery-payload/"/>
+    <id>https://www.taintedbits.com/2018/10/18/gandcrab-detail-analysis-of-js-delivery-payload/</id>
+    <published>2018-10-18T10:36:23.000Z</published>
+    <updated>2020-01-27T11:59:13.210Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently a friend of mine shared with me a Javascript file which on execution resulted in machine been infected by GandCrab ransomeware. Initial through was that it must be the Javascript implementation of ransomeware, but assumption tuned out to be wrong, the code was actually heavily obfuscated and it dropped the actual GandCrab binary (v5.0.3) which did the encryption. The Javascript code did lots of other technology like using Powershell script and ActiveXObject in order to evade detection.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Malware Analysis" scheme="https://www.taintedbits.com/categories/Malware-Analysis/"/>
+    
+    
+      <category term="Windows Malware" scheme="https://www.taintedbits.com/tags/Windows-Malware/"/>
+    
+      <category term="javascript obfuscation" scheme="https://www.taintedbits.com/tags/javascript-obfuscation/"/>
+    
+      <category term="GandCrab" scheme="https://www.taintedbits.com/tags/GandCrab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Setting up Windows 7 Machine for Kernel Debugging</title>
+    <link href="https://www.taintedbits.com/2018/10/10/setting-up-windows-7-for-kernel-debugging/"/>
+    <id>https://www.taintedbits.com/2018/10/10/setting-up-windows-7-for-kernel-debugging/</id>
+    <published>2018-10-09T18:30:00.000Z</published>
+    <updated>2020-01-27T12:22:42.916Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently when I was trying to debug a malicious Windows driver and I had to setup kernel debugging environment, there were various tutorial I found using various configuration VMware, network based. But I wanted something quick and dirty which is what my setup is.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Reverse Engineering" scheme="https://www.taintedbits.com/categories/Reverse-Engineering/"/>
+    
+    
+      <category term="Windows Reversing" scheme="https://www.taintedbits.com/tags/Windows-Reversing/"/>
+    
+      <category term="Kernel Debugging" scheme="https://www.taintedbits.com/tags/Kernel-Debugging/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Decrypting Mirai configuration With radare2 (Part 2)</title>
+    <link href="https://www.taintedbits.com/2018/09/15/decrypting-mirai-configuration-with-radare2-part-2/"/>
+    <id>https://www.taintedbits.com/2018/09/15/decrypting-mirai-configuration-with-radare2-part-2/</id>
+    <published>2018-09-15T10:36:23.000Z</published>
+    <updated>2020-01-27T11:58:53.366Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is the &lt;em&gt;third part&lt;/em&gt; of the three-part series about code Emulation for Reversing Malware :&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;/2018/08/15/emulating-decryption-function-with-radare2/&quot; title=&quot;Part 1&quot;&gt;Part 1&lt;/a&gt;&lt;/strong&gt; describes how to use radare2 function emulation along with an exercise of cracking password of function implemented using radare2 python scripting plugin r2pipe.&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;/2018/09/03/decrypting-mirai-configuration-with-radare2-part-1/&quot; title=&quot;Part 2&quot;&gt;Part 2&lt;/a&gt;&lt;/strong&gt; describes how to use the feature to decode a configuration of a Mirai IOT botnet, by implementing the solution in radare python scripting capabilities.&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;/2018/09/15/decrypting-mirai-configuration-with-radare2-part-2/&quot; title=&quot;Part 3&quot;&gt;Part 3&lt;/a&gt;&lt;/strong&gt; improves the script created in the previous by adding more features of searching for addresses of encrypted string and creating function signature to search for decryption function instead of using the hard-coded address of the function.&lt;/p&gt;&lt;p&gt;In the previous two posts we looked at how to emulate a string decryption function call and we created a radare2 macro and python script to use that emulation, we also managed to decrypt some configuration, but not all. In this post we will continue to improve the script, we will continue with the problem finding the address of encrypted data in the previous post and use those address to decrypt the configuration. There another interesting problem I came across when testing this script on the other variant of Mirai samples, the decryption function was not present at the same address as in the previous binary, all thought the function implementation was the same, well I managed to fix that by creating function signature other cool feature of radare. We will also explore many other features improve the script and make it more portable such that if the sample is using the same decryption method then our python script should be able to decrypt the configuration. Let get right into it.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Reverse Engineering" scheme="https://www.taintedbits.com/categories/Reverse-Engineering/"/>
+    
+    
+      <category term="Malware Analysis" scheme="https://www.taintedbits.com/tags/Malware-Analysis/"/>
+    
+      <category term="Linux Malware" scheme="https://www.taintedbits.com/tags/Linux-Malware/"/>
+    
+      <category term="radare2" scheme="https://www.taintedbits.com/tags/radare2/"/>
+    
+  </entry>
+  
+</feed>
